@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx affected --target=test --all"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "@nrwl/cypress": "14.7.17",
     "@nrwl/eslint-plugin-nx": "14.7.17",
     "@nrwl/jest": "14.7.17",
+    "@nrwl/js": "14.7.17",
     "@nrwl/linter": "14.7.17",
     "@nrwl/react": "14.7.17",
     "@nrwl/web": "14.7.17",
